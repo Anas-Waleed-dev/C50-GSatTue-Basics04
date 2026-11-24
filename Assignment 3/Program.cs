@@ -90,7 +90,16 @@
             #region Question 4
             ////4.Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with 
             ////"Clean Code".
-            PrintBookTitle("Clean Code");
+            //PrintBookTitle("Clean Code");
+            #endregion
+
+            #region Question 5
+            //5.Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable 
+            //int pages = 400; and print pages afterward. What do you expect to see, and why?
+            int pages = 400;
+            AddBounsPages(pages);
+            Console.WriteLine(pages);//Out: 400 because the method changes inside don't affect the Original. 
+
             #endregion
 
         }
