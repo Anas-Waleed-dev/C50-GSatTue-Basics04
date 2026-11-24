@@ -65,7 +65,13 @@
         }
         static void Main(string[] args)
         {
-            
+            #region Question 1
+            //1.Create a one-dimensional array double[] prices with the values 25.5, 40.0, 33.75. Print 
+            //the second price(index 1).
+            double[] prices = new double[] { 25.5, 40.0, 33.75 };
+            Console.WriteLine($"index 1: {prices[1]}");
+            #endregion
+
         }
     }
 }
