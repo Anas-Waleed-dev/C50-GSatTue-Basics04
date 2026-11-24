@@ -83,8 +83,14 @@
             #region Question 3
             //3.Write a method called PrintWelcomeMessage that takes no parameters and prints 
             // "Welcome to the Library!".Call it from Main.
-            PrintWelcomeMessage();
+            // PrintWelcomeMessage();
 
+            #endregion
+
+            #region Question 4
+            ////4.Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with 
+            ////"Clean Code".
+            PrintBookTitle("Clean Code");
             #endregion
 
         }
