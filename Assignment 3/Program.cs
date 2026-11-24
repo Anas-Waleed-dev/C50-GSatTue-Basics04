@@ -96,9 +96,18 @@
             #region Question 5
             //5.Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable 
             //int pages = 400; and print pages afterward. What do you expect to see, and why?
-            int pages = 400;
-            AddBounsPages(pages);
-            Console.WriteLine(pages);//Out: 400 because the method changes inside don't affect the Original. 
+            //int pages = 400;
+            //AddBounsPages(pages);
+            //Console.WriteLine(pages);//Out: 400 because the method changes inside don't affect the Original. 
+
+            #endregion
+            #region Question 6
+            //6.Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it 
+            //with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.What do you expect to
+            //see, and why?
+            double[] prices = { 25.5, 40.0 };
+            ApplyDiscount(prices);
+            Console.WriteLine(prices[0]);//out =20.5 / because the array is reference is created for the same object in the heap same place the original array.
 
             #endregion
 
