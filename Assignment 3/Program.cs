@@ -123,9 +123,21 @@
             //8.Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a 
             //new array { 10.0, 12.5, 15.0 }.Call it with your prices array and print prices.Length
             //afterward.
-            double[] prices = new double[] { 15, 20.2 };
-            ReplaceArray(ref prices);
-            Console.WriteLine(prices.Length);
+            //double[] prices = new double[] { 15, 20.2 };
+            //ReplaceArray(ref prices);
+            //Console.WriteLine(prices.Length);
+            #endregion
+            #region Question 9
+            //9.Write a method bool TryGetPrice(string title, out double price) that returns true and sets 
+            //price to 25.5 if title is "Clean Code", otherwise returns false and sets price to 0.Call it
+            //and print the price if found
+            double price;
+            bool found = TryGetPrice("Clean Code", out price);
+            if (found)
+            {
+                Console.WriteLine("Price: " + price);
+            }
+
             #endregion
 
 
